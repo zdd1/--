@@ -1,0 +1,14 @@
+/*新闻中心 详情页*/
+
+.article .articleContent h1{
+    font-size: 16px;
+    color: #333;
+    text-indent: 2em;
+    line-height: 3em;
+}
+.article .articleContent img{
+    width: 600px;
+    height: 386px;
+    display: block;
+    margin: 25px auto 33px;
+}

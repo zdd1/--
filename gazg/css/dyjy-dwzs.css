@@ -1,0 +1,87 @@
+.site{
+    margin-top: 108px;
+    width: 100%;
+}
+.siteContent{
+    width: 1200px;
+    margin: 0 auto;
+}
+.siteContent span{
+    font-size: 14px;
+    color:#666;
+}
+
+
+
+/*dwzs*/
+.dwzs{
+    width: 100%;
+    margin-top: 30px;
+}
+.dwzsContent{
+    width: 1200px;
+    margin: 0 auto;
+}
+.dwzsContent .dwzsHeader{
+    height: 48px;
+    line-height: 48px;
+    border-top:2px solid #d4261a;
+    border-bottom: 1px solid #e0e0e0;
+
+}
+.dwzsContent .dwzsHeader span{
+    width: 100%;
+    font-size: 20px;
+    color:#bb0000;
+}
+
+/*dwzsList*/
+.dwzsList{
+    width: 100%;
+
+}
+.dwzsListContent{
+    width: 1200px;
+    margin:  0 auto;
+}
+.dwzsListContent .dContent{
+    border-bottom:1px dashed #e0e0e0;
+    height: 185px;
+}
+.dwzsListContent .dContent h1{
+    font-size: 20px;
+    color: #333;
+    margin: 27px 0 18px 0;
+}
+.dContent .imgTxt{
+    width: 1004px;
+}
+.dContent .imgTxt img{
+    width: 164px;
+    height: 102px;
+    float: left;
+    margin-right: 20px;
+}
+.dContent .imgTxt p{
+    font-size: 14px;
+    color: #666;
+    line-height: 27px;
+    display: block;
+    height: 80px;
+    overflow: hidden;
+
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+}
+.dContent .imgTxt a{
+    color:#960000;
+}
+.dContent .data{
+    font-size: 14px;
+    color: #666;
+    float: right;
+    margin-top: -100px;
+}
+

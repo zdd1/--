@@ -1,0 +1,915 @@
+/*banner*/
+.homeBanner {
+    width: 100%;
+    height: 670px;
+    margin-top: 73px;
+    background: url("../img/home-banner-1.png") no-repeat center;
+    text-align: center;
+}
+
+.homeBanner h1 {
+    font-size: 48px;
+    color: #e4100d;
+    display: inline-block;
+    margin-top: 90px;
+    -webkit-filter: drop-shadow(0 0 2px #fff);
+    filter: drop-shadow(0 0 2px #fff);
+
+}
+
+.homeBanner span {
+    font-size: 43px;
+    color: #e4100d;
+    display: block;
+    margin-top: 30px;
+    -webkit-filter: drop-shadow(0 0 2px #fff);
+    filter: drop-shadow(0 0 2px #fff);
+}
+
+/*entry*/
+.entry {
+    width: 100%;
+    margin-top: 40px;
+}
+
+.entryContent {
+    width: 1200px;
+    margin: 0 auto;
+    font-size: 0;
+}
+
+.entryImg {
+    margin-right: -3%;
+}
+
+.entryImg img {
+    width: 30%;
+    height: 140px;
+    margin-right: 3%;
+}
+
+/*autoTxt*/
+.autoTxt {
+    width: 100%;
+    margin-top: 40px;
+}
+
+.autoTxtContent {
+    width: 1200px;
+    height: 80px;
+    line-height: 80px;
+    margin: 0 auto;
+    background: url("../img/home-autoTxt.png") no-repeat center;
+    background-size: cover;
+}
+
+.autoLeft {
+    margin-left: 40px;
+    float: left;
+    color: #f5f7f3;
+    font-size: 18px;
+}
+
+.auto_content {
+    width: 960px;
+    margin-left: 20px;
+    float: left;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.autoRight a {
+    float: right;
+    margin-right: 25px;
+    color: #ffffff;
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+/*经验学习与干部视野*/
+.imgTxt {
+    width: 100%;
+    margin-top: 40px;
+}
+
+.imgTxtContent {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.imgTxtHeader {
+    border-left: 2px solid #c2131a;
+    height: 20px;
+    line-height: 20px;
+    /*margin-bottom: 40px;*/
+}
+
+.imgTxtHeader h1 {
+    font-size: 20px;
+    color: #111;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.imgTxtHeader a {
+    float: right;
+}
+
+.imgTxt_content {
+    margin-right: -3%;
+    border-top: 1px solid #f0f0f0;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+.imgTxtModule {
+    width: 23%;
+    overflow: hidden;
+    float: left;
+    margin-right: 2%;
+    border-bottom: 1px solid #f0f0f0;
+    padding-bottom: 20px;
+
+}
+
+.imgTxtModule .imgTxtModuleHead {
+    width: 286px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.imgTxtModule .img_1 {
+    width: 286px;
+    height: 200px;
+    min-height: 200px;
+    transition: all .5s ease;
+}
+
+.imgTxtModule h1 {
+    font-size: 18px;
+    color: #111;
+    line-height: 2em;
+}
+
+.imgTxtModule span {
+    font-size: 14px;
+    color: #999;
+}
+
+.imgTxtModule .img_2 {
+    width: 14px;
+    height: 9px;
+    float: right;
+    margin-right: 15px;
+    margin-top: -8px;
+}
+
+.imgTxtModule:hover.imgTxtModule .img_2 {
+    width: 17px;
+    height: 12px;
+    margin-right: 5px;
+    margin-top: -9px;
+}
+
+.imgTxtModule:hover.imgTxtModule .img_1 {
+    transform: scale(1.2);
+}
+
+/*leader activity*/
+.leaderActivity {
+    width: 100%;
+    height: 685px;
+    background: #f8f8f8;
+    margin-top: 80px;
+}
+
+.leaderActivityContent {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/*special 专题*/
+.special {
+    width: 100%;
+    margin-top: 70px;
+}
+
+.specialContent {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.specialTitle {
+    text-align: center;
+    font-size: 24px;
+    color: #000011;
+}
+
+.specialTop {
+    width: 100%;
+    height: 295px;
+    background: #f8f8f8;
+    margin-top: 100px;
+}
+
+.topImg {
+    float: left;
+    margin: -30px 20px 0 38px;
+}
+
+.topImg img, .bottomImg img {
+    width: 620px;
+    height: 254px;
+}
+
+.topTxt {
+    padding-top: 47px;
+}
+
+.topTxt h1 {
+    font-size: 24px;
+    color: #000011;
+    width: 380px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.topTxt p, .bottomTxt p {
+    font-size: 16px;
+    color: #666;
+    width: 500px;
+    height: 105px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    line-height: 2em;
+    margin-top: 22px;
+}
+
+.topTxt span {
+    font-size: 16px;
+    color: #666;
+    float: right;
+    margin: 36px 18px 0 0;
+}
+
+.specialBottom {
+    width: 100%;
+    height: 295px;
+    background: #f8f8f8;
+    margin-top: 50px;
+}
+
+.bottomTxt {
+    float: left;
+    padding-top: 47px;
+    margin-left: 30px;
+    text-align: right;
+    margin-right: 20px;
+}
+
+.bottomTxt h1 {
+    font-size: 24px;
+    color: #000011;
+    /*width: 380px;*/
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.bottomTxt span {
+    font-size: 16px;
+    color: #666;
+    float: left;
+    margin-top: 45px;
+}
+
+.bottomImg img {
+    margin-top: -32px;
+}
+
+
+
+
+/*dynamic 动态*/
+.dynamic {
+    width: 100%;
+    height: 914px;
+    background: #f8f8f8;
+    margin-top: 114px;
+    padding-top:68px ;
+}
+.dynamicContent {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+.dynamicHead{
+    text-align: center;
+    font-size: 24px;
+    color: #111;
+    display: block;
+    margin-bottom:35px;
+}
+
+
+.timerShaft {
+margin-left: 90px;
+}
+.shaft {
+    width: 100%;
+    height: 180px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+}
+.shaft a {
+    height: 100%;
+    text-align: center;
+}
+.shaftContent {
+    width: 1000px;
+    height: 100%;
+    padding-top: 45px;
+    position: relative;
+}
+.shaftData {
+    position: absolute;
+    right: 50%;
+    text-align: right;
+    padding-right: 30px;
+    transition: all .5s;
+}
+.shaftData:after {
+    content: '';
+    position: absolute;
+    top: 10px;
+    width: 7px;
+    height: 7px;
+    background: #c4c4c4;
+    border-radius: 10px;
+    margin: 20px 0 0 38px;
+}
+.dataMonth {
+    font-size: 36px;
+    color: #999;
+    display: block;
+
+}
+.dataYear {
+    font-size: 14px;
+    color: #999;
+}
+.shaftTxt {
+    position: absolute;
+    left: 50%;
+    text-align: left;
+    padding-left: 40px;
+}
+.shaftTxt h1 {
+    width: 490px;
+    font-size: 24px;
+    color: #000011;
+    margin-bottom: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transition: all .5s
+}
+.shaftTxt p {
+    width: 490px;
+    height: 44px;
+    line-height: 1.5em;
+    font-size: 14px;
+    color: #999;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    transition: all .5s
+}
+.shaft .shaftImg {
+    width: 330px;
+    height: 140px;
+    position: absolute;
+    top: 180px;
+    left: 155px;
+    transition: all .8s;
+}
+.shaft .shaftArro{
+    width: 38px;
+    height: 13px;
+    position: absolute;
+    bottom: 0;
+    left: 45px;
+transition: all .5s;
+}
+.shaft_1 .shaftData {
+    position: absolute;
+    left: 50%;
+    right: 0;
+    text-align: left;
+    padding-left: 48px;
+    transition: all .5s;
+}
+.shaft_1 .shaftData:after {
+
+    margin: 29px 0 0 -73px;
+}
+.shaft_1 .shaftTxt {
+    position: absolute;
+    left: 0;
+    right: 50%;
+    padding-left: 0;
+    text-align: right;
+    padding-right: 30px;
+}
+.shaft_1 .shaftImg{
+    width: 330px;
+    height: 140px;
+    position: absolute;
+    left: 520px;
+    transition: all .8s;
+}
+.shaft_1 .shaftArro{
+    left: 900px;
+}
+
+.line{
+    width: 0;
+    height: 680px;
+    background: #ccc;
+    border: 1px solid #ccc;
+    position: absolute;
+    top: 145px;
+    left: 600px;
+}
+.dynamicFoot{
+    width: 145px;
+    height: 45px;
+    background: #e0e0e0;
+    border: none;
+    text-align: center;
+    margin: 40px 0 0 530px;
+}
+.dynamicFoot .dynamicFootImg{
+    width: 71px;
+    height: 21px;
+    margin-top: 5px;
+    transition: all .5s;
+}
+.dynamicFoot:hover{
+    background: #ccc;
+}
+.dynamicFoot:hover .dynamicFootImg{
+    margin-left: 20px;
+}
+
+
+
+.shaft:hover {
+    background: #c2131a;
+    z-index: 9;
+    box-shadow: 2px 2px 15px #ccc,-2px -2px 15px #ccc;
+}
+.shaft:hover .shaftData {
+    margin: 0 350px 0 0;
+}
+.shaft:hover .shaftData_1 {
+
+    margin: 0 0 0 320px;
+
+}
+.shaft:hover .dataMonth, .shaft:hover .dataYear, .shaft:hover .shaftTxtH1, .shaft:hover .shaftTxtP {
+    color: white;
+}
+.shaft:hover .shaftTxtH1 {
+    margin-top: -10px;
+}
+.shaft:hover .shaftImg{
+   top:20px;
+}
+.shaft:hover .shaftArro{
+    bottom:35px
+}
+
+
+/*education 党员教育*/
+.education {
+    width: 100%;
+    margin-top: 78px;
+}
+
+.educationContent {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.eduHead {
+    text-align: center;
+    font-size: 24px;
+    color: #111;
+    display: block;
+    margin-bottom: 75px;
+}
+
+.eduImg {
+    display: inline-block;
+    margin-left: -110px;
+    margin-top: -130px;
+}
+
+.eduImg img {
+    width: 400px;
+    height: 666px;
+}
+
+.eduModule {
+    width: 750px;
+    height: 590px;
+    float: right;
+    /*margin-top: 78px;*/
+}
+
+.moduleHead {
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    border-bottom: 1px solid #c2131a;
+
+}
+
+.headTitle {
+    font-size: 18px;
+    color: #333;
+    float: left;
+    margin-right: 78px;
+}
+
+.moduleList li {
+    width: 100px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    float: left;
+    background: #f9f9f9;
+
+}
+
+.moduleList li {
+    font-size: 14px;
+    color: #666;
+}
+
+.moduleList .moduleBg {
+    background: #c2131a;
+}
+
+.moduleList .moduleBg {
+    color: white;
+}
+
+.listEach {
+    margin-top: 40px;
+}
+
+.listEach:hover .listLeft {
+    background: #c2131a;
+}
+
+.listEach:hover .listRightTxt {
+    color: #c2131a;
+}
+
+.listEach:hover .listTxtH1 {
+    color: white;
+}
+
+.listEach:hover .listTxtSpan {
+    color: white;
+}
+
+.listLeft {
+    width: 70px;
+    height: 70px;
+    background: #f9f9f9;
+    display: inline-block;
+}
+
+.listLeft .listTxt {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.listTxt h1 {
+    font-size: 18px;
+    color: #666;
+}
+
+.listTxt span {
+    font-size: 14px;
+    color: #666;
+    margin-left: 10px;
+}
+
+.listRight {
+    float: right;
+}
+
+.listRight h1 {
+    width: 400px;
+    line-height: 2em;
+    font-size: 16px;
+    color: #333;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.listRight p {
+    width: 620px;
+    height: 40px;
+    font-size: 14px;
+    color: #666;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+
+.listEachBg {
+    background: #c2131a;
+    color: white;
+}
+
+.listEachTxt {
+    color: #ce5b5e;
+}
+
+.moduleFoot {
+    margin-top: 60px;
+    width: 145px;
+    height: 45px;
+    background: #e0e0e0;
+    border: none;
+    text-align: center;
+
+}
+
+.moduleFoot img {
+    width: 71px;
+    height: 21px;
+    margin-top: 5px;
+}
+
+.moduleFoot:hover {
+    background: #ccc;
+}
+
+.moduleFoot:hover .moduleFootImg {
+    color: #efe8e8;
+    margin-left: 30px;
+}
+
+/*field 组工园地*/
+.field {
+    width: 100%;
+    height: 760px;
+    background: #f8f8f8;
+    padding-top: 55px;
+    margin-top: 100px;
+}
+
+.fieldContent {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.fieldHead {
+    text-align: center;
+    font-size: 24px;
+    color: #111;
+    display: block;
+    margin-bottom: 45px;
+}
+
+.fieldList {
+    margin-right: -30px;
+}
+
+.fieldDetails {
+    width: 380px;
+    height: 529px;
+    background: #fff;
+    position: relative;
+    overflow: hidden;
+    float: left;
+    margin-right: 30px;
+}
+
+.fieldDetails .fieldImg {
+    width: 380px;
+    height: 256px;
+    overflow: hidden;
+}
+
+.fieldDetails .fieldImg img {
+    width: 380px;
+    height: 256px;
+    transition: all 1s ease;
+}
+
+.fieldDetails span {
+    display: block;
+    font-size: 24px;
+    color: #111;
+    margin-left: 20px;
+    line-height: 2.5em;
+    transition: all .5s;
+}
+
+.fieldDetails p {
+    width: 340px;
+    height: 105px;
+    font-size: 13px;
+    color: #333;
+    line-height: 2em;
+    margin-left: 20px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    overflow: hidden;
+    transition: all .5s;
+}
+
+.fieldDetails .Wborder {
+    width: 380px;
+    height: 256px;
+    border: 1px solid transparent;
+    background: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all .5s;
+
+}
+
+.fieldDetails .lump {
+    width: 48px;
+    height: 48px;
+    background: url('../img/home-field-icon-2.png') no-repeat center;
+    position: absolute;
+    top: 205px;
+    right: 50px;
+    opacity: 0;
+    transition: all .8s
+}
+
+.fieldFoo {
+    display: none;
+    width: 100%;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    background: #c2131a;
+    position: absolute;
+    bottom: -48px;
+    left: 0;
+    transition: all 1s ease;
+
+}
+
+.fieldFoo img {
+    width: 32px;
+    height: 8px;
+}
+
+.fieldDetails:hover .fieldFoo {
+    display: block;
+    animation: autoTop 1s;
+    animation-fill-mode: forwards;
+}
+
+.fieldDetails:hover .fieldImg img {
+    transform: scale(1.2);
+}
+
+.fieldDetails:hover .Wborder {
+    transform: scale(0.8);
+    border: 1px solid white;
+}
+
+.fieldDetails:hover .lump {
+    opacity: 1;
+}
+
+.fieldDetails:hover .fieldSift {
+    margin-top: -5px;
+}
+
+.fieldDetails:hover .fieldText {
+    margin-top: -5px;
+}
+
+/*substratum 基层*/
+.substratum {
+    width: 100%;
+}
+
+.substratumContent {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.subHerder {
+    text-align: center;
+    font-size: 24px;
+    color: #111;
+    display: block;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+.subList {
+    font-size: 0;
+    margin-right: -30px;
+}
+
+.subContent {
+    width: 582px;
+    height: 240px;
+    border: 1px solid #f1f1f1;
+    display: inline-block;
+    margin-right: 30px;
+    margin-top: 40px;
+}
+
+.subTxt {
+    display: inline-block;
+    margin: 30px 0 0 48px;
+}
+
+.subTxt h1 {
+    width: 300px;
+    font-size: 16px;
+    color: #333;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.subTxt span {
+    font-size: 12px;
+    color: #999;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.subTxt p {
+    font-size: 14px;
+    color: #999;
+    width: 300px;
+    height: 55px;
+    line-height: 2em;
+    margin-top: 25px;
+    display: block;
+}
+
+.subTxt button {
+    width: 92px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    border: 1px solid #e5e5e5;
+    background: none;
+    margin-top: 25px;
+    color: #e5e5e5;
+    font-size: 12px;
+}
+
+.subImg {
+    width: 200px;
+    height: 240px;
+    float: right;
+}
+
+@keyframes autoTop {
+    0% {
+        bottom: -48px;
+    }
+    100% {
+        bottom: 0;
+    }
+}
+
+@-webkit-keyframes autoLeft {
+    0% {
+        bottom: -48px;
+    }
+    100% {
+        bottom: 0;
+    }
+}
+

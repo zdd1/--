@@ -1,0 +1,348 @@
+/*公用样式头部和底部*/
+
+/*header*/
+.header {
+    z-index: 99;
+    width: 100%;
+    border-bottom: 1px solid #e7e9ea;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #fff;
+
+}
+.headerContent {
+    width: 1200px;
+    height: 73px;
+    line-height: 73px;
+    margin: 0 auto;
+}
+.headerContent img {
+    width: 190px;
+    height: 42px;
+    float: left;
+    margin: 15px 88px 0 0;
+}
+.headerContent ul li {
+    float: left;
+    font-size: 16px;
+    margin-right: 56px;
+
+}
+.headerContent ul li a {
+    color: #333;
+
+}
+.header .headerContent ul .headerBg {
+    z-index: 999999999999;
+    border-bottom: 2px solid #c2131a;
+    color: #d70000;
+}
+.headerContent .search {
+    font-size: 0;
+}
+.headerContent .search input {
+    padding-left: 10px;
+    width: 150px;
+    height: 28px;
+    font-size: 16px;
+    box-sizing: border-box;
+}.headerContent .search button {
+    width: 80px;
+    height: 28px;
+    font-size: 16px;
+    background: #d70000;
+    color: #ffffff;
+    border: none
+}
+
+
+
+/*标题*/
+.headerTitle{
+    width: 100%;
+    margin-top: 112px;
+}
+.headerTitle .headerTitleContent{
+    width: 1200px;
+    height: 53px;
+    line-height:53px;
+    margin: 0 auto;
+    border-top:2px solid #d4261a;
+    border-bottom:1px solid #f1f1f1;
+}
+.headerTitle .headerTitleContent span{
+    font-size: 20px;
+    color:#bb0000;
+}
+/*<div class="headerTitle">
+<div class="headerTitleContent">
+<span>基层党建</span>
+            </div>
+              </div>*/
+
+
+
+
+
+
+
+
+/*footer*/
+.footer {
+    width: 100%;
+    height: 124px;
+    background: #f0f0f0;
+    margin-top: 70px;
+}
+.footer .footerContent {
+    width: 1200px;
+    margin: 0 auto;
+}
+.footerContent .logo{
+    float: left;
+}
+.footerContent .logo img {
+    float: left;
+    margin-left: 210px;
+    margin-top: 22px;
+    margin-right: 32px;
+}
+.footerContent .logo p {
+    font-size: 13px;
+    color: #666;
+    margin-top: 37px;
+    display: inline-block;
+}
+.footerContent .gzh{
+    display: inline-block;
+    margin-left: 200px;
+    margin-top: 19px;
+    text-align: center;
+}
+.footerContent .gzh img {
+    width: 67px;
+    height: 67px;
+}
+.footerContent .gzh p {
+    font-size: 13px;
+    color: #666;
+}
+
+
+
+/*详情页样式*/
+/*headline*/
+.headline {
+    width: 100%;
+    margin-top: 73px;
+}
+
+.headline .headlineContent {
+    width: 896px;
+    border-bottom: 1px solid #e0e0e0;
+    margin: 0 auto;
+}
+
+.headlineContent .site {
+    font-size: 14px;
+    color: #666;
+    margin-top: 39px;
+    display: inline-block;
+}
+
+.headlineContent h1 {
+    font-size: 38px;
+    color: #333;
+    margin-top: 36px;
+}
+
+.headlineContentFooter {
+    margin-top: 47px;
+    margin-bottom: 20px;
+    vertical-align: middle;
+}
+
+.headlineContentFooter span {
+    font-size: 14px;
+    color: #666;
+}
+
+.headlineContentFooter .share {
+    float: right;
+}
+
+/*article*/
+.article {
+    width: 100%;
+}
+
+.article .articleContent {
+    width: 896px;
+    margin: 0 auto;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.articleContent p {
+    font-size: 16px;
+    color: #333;
+    text-indent: 2em;
+    line-height: 3em;
+    padding: 10px;
+    margin: 0;
+}
+/*<div class="headline">
+<div class="headlineContent">
+<span class="site">当前位置：通知公告 >  通知详情</span>
+                                      <h1>关于认真做好《榜样》专题节目学习宣传工作的通知</h1>
+                                                                   <div class="headlineContentFooter">
+<span>发布时间：2017-10-12      稿源:新华网</span>
+                                   <div class="share">
+<a href=""> <i class="iconfont icon-fenxiang">分享</i></a>
+                                                      </div>
+                                                        </div>
+                                                          </div>
+                                                            </div>
+<!--end headline-->
+
+<!--begin article 文章-->
+    <div class="article">
+<div class="articleContent">
+<p>大国治理，机杼万端。在中国这个占世界人口近五分之一的泱泱大国，如何做到人人尊法、懂法、守法、用法，是世界法治
+ 史上独一无二的课题。“党的十八大强调，依法治国是党领导人民治理国家的基本方略，法治是治国理政的基本方式，要更加注重发挥法治在国家
+ 治理和社会管理中的重要作用，全面推进依法治国，加快建设社会主义法治国家。”2012年12月4日，在履新之初，习近平总书
+ 记出席首都各界纪念现行宪法公布施行三十周年大会时，发出了全面推进依法治国的动员令。 <br>
+
+ 　　十八大以来，无论是出席中央会议，或是赴国内外考察访问时，依法治国成为习近平频频提及的词汇：
+            <br>
+ 　　“我国社会主义制度保证了人民当家作主的主体地位，也保证了人民在全面推进依法治国中的主体地位。”
+            <br>
+ 　　“全面推进依法治国是关系我们党执政兴国、关系人民幸福安康、关系党和国家长治久安的重大战略问题，是完善和发展中
+ 国特色社会主义制度、推进国家治理体系和治理能力现代化的重要方面。”
+            <br>
+ 　　“公平正义是我们党追求的一个非常崇高的价值，全心全意为人民服务的宗旨决定了我们必须追求公平正义，保护人民权益
+ 伸张正义。全面依法治国，必须紧紧围绕保障和促进社会公平正义来进行。”
+ 　　……
+            <br>
+ 　　“人”字当先，“民”字为重。这些阐述，体现出习近平对依法治国基本方略本质特征的深邃思考。贯彻以人民为中心的发展思
+ 想，为了人民、依靠人民、造福人民，正是法治中国始终高扬的旗帜。
+            <br>
+ 　　“依法治国，本质上是党领导人民治理国家和社会，管理经济和文化事业，保证人民主体地位，实现人民当家作主的基本途
+ 径和根本保障。坚持人民主体地位，保证人民当家作主，实现人民幸福生活，这是党治国理政的内在要求，是全面依法治国的本
+ 质特征。”中国社科院学部委员、法学研究所所长李林这样解读。<br>
+
+ 　　五年来，我国法治建设的步伐一步步向前，让公平正义更可见可感，让法治观念更深入人心。据中央政法委秘书长汪永清介
+ 绍，人民群众安全感持续增强，对社会治安的满意度从2012年的87.55%上升到2016年的91.99%；对司法公正的认可度也明显
+                                                    提高，上诉率、改判发回率明显下降。。“党的十八大强调，依法治国是党领导人民治理国家的基本方略，法治是治国理政的基本方式，要更加注重发挥法治在国家
+                                                    治理和社会管理中的重要作用，全面推进依法治国，加快建设社会主义法治国家。”2012年12月4日，在履新之初，习近平总书
+                                                    记出席首都各界纪念现行宪法公布施行三十周年大会时，发出了全面推进依法治国的动员令。
+            <br>
+                                                    　　十八大以来，无论是出席中央会议，或是赴国内外考察访问时，依法治国成为习近平频频提及的词汇：
+            <br>
+                                                    　　“我国社会主义制度保证了人民当家作主的主体地位，也保证了人民在全面推进依法治国中的主体地位。”
+            <br>
+                                                    　　“全面推进依法治国是关系我们党执政兴国、关系人民幸福安康、关系党和国家长治久安的重大战略问题，是完善和发展中
+                                                    国特色社会主义制度、推进国家治理体系和治理能力现代化的重要方面。” <br>
+
+                                                    　　“公平正义是我们党追求的一个非常崇高的价值，全心全意为人民服务的宗旨决定了我们必须追求公平正义，保护人民权益
+                                                    伸张正义。全面依法治国，必须紧紧围绕保障和促进社会公平正义来进行。”
+                                                    　　……
+            <br>
+                                                    　　“人”字当先，“民”字为重。这些阐述，体现出习近平对依法治国基本方略本质特征的深邃思考。贯彻以人民为中心的发展思
+                                                    想，为了人民、依靠人民、造福人民，正是法治中国始终高扬的旗帜。
+            <br>
+                                                    　　“依法治国，本质上是党领导人民治理国家和社会，管理经济和文化事业，保证人民主体地位，实现人民当家作主的基本途
+                                                    径和根本保障。坚持人民主体地位，保证人民当家作主，实现人民幸福生活，这是党治国理政的内在要求，是全面依法治国的本
+                                                    质特征。”中国社科院学部委员、法学研究所所长李林这样解读。
+            <br>
+                                                    　　五年来，我国法治建设的步伐一步步向前，让公平正义更可见可感，让法治观念更深入人心。据中央政法委秘书长汪永清介
+                                                    绍，人民群众安全感持续增强，对社会治安的满意度从2012年的87.55%上升到2016年的91.99%；对司法公正的认可度也明显
+                                                                                                       提高，上诉率、改判发回率明显下降。</p>
+                                                                                                                          <div class="headlineContentFooter">
+<span>发布时间：2017-10-12      稿源:新华网</span>
+                                   <div class="share">
+<a href=""> <i class="iconfont icon-fenxiang">分享</i></a>
+                                                      </div>
+                                                        </div>
+                                                          </div>
+                                                            </div>*/
+
+
+
+
+
+/*友情衔接*/
+
+.blogroll {
+    width: 100%;
+    margin-top: 90px;
+
+}
+
+.blogrollContent {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.blogrollContent h1 {
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 22px;
+    font-weight: 600;
+}
+
+.blogrollContent form {
+    display: inline-block;
+    margin-right: 42px;
+}
+
+.blogrollContent form select {
+    width: 230px;
+}
+/*
+<!--begin blogroll 友情链接-->
+    <div class="blogroll">
+<div class="blogrollContent">
+<h1>友情链接:</h1>
+
+           <form action="" method="get">
+<select name="jumpMenu" id="jumpMenu"
+onchange="MM_jumpMenu('parent',this,0)">
+<option value="http://www..com/">党建网站</option>
+                                       <option value="http://www..com/">1</option>
+                                                                           </select>
+                                                                             </form>
+                                                                               <form action="" method="get">
+<select name="jumpMenu" id="jumpMenu"
+onchange="MM_jumpMenu('parent',this,0)">
+<option value="http://www..com/">省内党政机关网站</option>
+                                           <option value="http://www..com/">1</option>
+                                                                               <option value="http://www..com/">2</option>
+                                                                                                                   </select>
+                                                                                                                     </form>
+                                                                                                                       <form action="" method="get">
+<select name="jumpMenu" id="jumpMenu"
+onchange="MM_jumpMenu('parent',this,0)">
+<option value="http://www..com/">省内各市党建网站</option>
+                                           <option value="http://www..com/">1</option>
+                                                                               <option value="http://www..com/">122</option>
+                                                                                                                     </select>
+                                                                                                                       </form>
+                                                                                                                         <form action="" method="get">
+<select name="jumpMenu" id="jumpMenu"
+onchange="MM_jumpMenu('parent',this,0)">
+<option value="http://www..com/">新媒体网站</option>
+                                        <option value="http://www..com/">312</option>
+                                                                              </select>
+                                                                                </form>
+                                                                                  </div>
+                                                                                    </div>
+<!--end blogroll-->*/
+
+/*<script src="js/commonBlogroll.js"></script>*/
+
+
+
+
+
+

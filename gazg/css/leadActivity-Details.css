@@ -1,0 +1,53 @@
+.banner{
+    margin-top: 40px;
+    width: 100%;
+}
+.bannerContent{
+    width:896px;
+    margin: 0 auto;
+}
+.swiper-container{
+    width: 100%;
+    height: 497px;
+}
+
+.swiper-slide img{
+    width: 100%;
+    height: 100%;
+}
+.banner .btn{
+    width: 33px;
+    height: 67px;
+    line-height: 67px;
+    text-align: center;
+    font-size: 25px;
+    background: #000;
+    opacity: 0.4;
+    color: white;
+}
+.banner .btn:hover{
+    background: #000;
+    opacity: .8;
+}
+
+
+
+
+
+.leadActivityDetailsFoo{
+    width: 100%;
+}
+.leadActivityDetailsFoo .fooContent{
+    width: 896px;
+    margin: 0 auto;
+    border-bottom:1px solid #e0e0e0;
+
+}
+.fooContent .fooContentTxt{
+    font-size: 14px;
+    color: #333;
+    text-indent: 2em;
+    line-height: 2em;
+    padding: 10px;
+    margin: 0;
+}
